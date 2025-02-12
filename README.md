@@ -11,7 +11,7 @@ This is a simple Python program that implements the Caesar cipher encryption tec
 
 ## Features
 - Encrypts messages by shifting letters forward in the alphabet.
-- Can be extended to support decryption.
+- Decrypts messages by shifting letters backward in the alphabet.
 - Simple and easy-to-use command-line interface.
 
 ## Usage
@@ -27,15 +27,22 @@ Type the shift number:
 The encoded text is: mjqqt
 ```
 
+## Updates
+- Added support for decryption.
+- Improved shift handling by directly modifying the shift value based on user input.
+- Optimized code structure by introducing a `caesar` function that handles both encryption and decryption.
+
 ## Known Issues
 - The program currently does not handle spaces, numbers, or special characters.
-- The decryption functionality is not implemented yet.
 - It uses a redundant alphabet list instead of handling index wrapping more efficiently.
 
 ## Future Improvements
-- Implement decryption.
 - Improve handling of spaces, numbers, and special characters.
 - Optimize the algorithm to avoid using duplicate alphabet entries.
+
+## Author
+- **Karabo Pookgwadi**
+- **Date:** 12 Feb 2025
 
 ## License
 This project is open-source and free to use.
